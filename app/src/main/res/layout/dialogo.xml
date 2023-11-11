@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:id="@+id/et_Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/et_Telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefono"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/et_Ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ciudad"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/et_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/et_Tipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo de Animal"
+        android:textSize="24sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_agregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Agregar" />
+
+        <Button
+            android:id="@+id/btn_Cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancelar" />
+    </LinearLayout>
+
+</LinearLayout>
